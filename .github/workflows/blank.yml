@@ -29,7 +29,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           curl -s get.sdkman.io | bash
-          source "$HOME/.sdkman/bin/sdkman-init.sh"
+          source "/home/runner/.sdkman/bin/sdkman-init.sh"
           sdk install grovvy
           groovy -version
           echo Add other actions to build,
