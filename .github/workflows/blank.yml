@@ -35,6 +35,6 @@ jobs:
       - name: execute 
         run: 
           sdk install grovvy 
-      - name version
+      - name: version
         run: 
           groovy -version 
