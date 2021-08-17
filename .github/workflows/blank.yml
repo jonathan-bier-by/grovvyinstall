@@ -32,7 +32,8 @@ jobs:
       - name: source  
         run: |
           source "/home/runner/.sdkman/bin/sdkman-init.sh"
-          sdk install grovvy 
+          sdk install groovy 
+          sdk install java
       - name: version
         run: 
           groovy -version 
