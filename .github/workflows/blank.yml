@@ -30,10 +30,8 @@ jobs:
         run: 
           curl -s get.sdkman.io | bash
       - name: source  
-        run: 
+        run: |
           source "/home/runner/.sdkman/bin/sdkman-init.sh"
-      - name: execute 
-        run: 
           sdk install grovvy 
       - name: version
         run: 
